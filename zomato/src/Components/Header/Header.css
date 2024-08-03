@@ -1,0 +1,298 @@
+.header {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  background-size: cover;
+  background-position: center;
+  height: calc(-30rem + 80vh);
+  min-height: 25rem;
+  max-height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+
+.header-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: bold;
+}
+
+.header-logo {
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+}
+
+.header-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 20px;
+}
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.header-subheading {
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.options {
+  margin-top: 35px;
+  display: flex;
+  gap: 4%;
+  justify-content: center;
+  align-items: center;
+}
+.localities {
+  margin-top: 35px;
+  display: flex;
+  gap: 4%;
+  justify-content: center;
+  align-items: center;
+}
+.tabs {
+  height: 40vh;
+  width: 50vh;
+  border: 1px solid #c7c7c7;
+  border-radius: 15px;
+}
+.tabs:hover {
+  height: 45vh;
+}
+.options-img {
+  height: 80%;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.option-heading {
+  color: rgb(54, 54, 54);
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  margin-left: 12px;
+  font-size: 24px;
+}
+.option-subheading {
+  color: rgb(79, 79, 79);
+  font-weight: 400;
+  white-space: nowrap;
+  margin-left: 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.Collection-tabs {
+  margin-top: 35px;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.collec-tab {
+  width: 38.5vh;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: calc(-30rem + 80vh);
+  min-height: 25rem;
+  max-height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  padding: 10px; /* Optional: Adjust padding */
+  box-sizing: border-box;
+}
+
+.collec-heading {
+  margin-left: 8%;
+  margin-top: 2%;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+}
+.local-heading {
+  margin-left: 8%;
+  margin-top: 2%;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+}
+.collec-subheading {
+  margin-left: 8%;
+  line-height: 1.4;
+  font-weight: 300;
+  color: rgb(54, 54, 54);
+}
+.one {
+  background-image: url("https://b.zmtcdn.com/data/collections/8ae27cd9a69b3f7762ee64549ebf988a_1722425524.png?output-format=webp");
+}
+.two {
+  background-image: url("https://b.zmtcdn.com/data/collections/96541881ed7b42d424990403ac3afdbf_1712923153.png?output-format=webp");
+}
+.three {
+  background-image: url("https://b.zmtcdn.com/data/collections/2e8b954961d07f927802853d5944d67b_1709812770.png?output-format=webp");
+}
+.four {
+  background-image: url("https://b.zmtcdn.com/data/collections/fbd237478a5d3b6ea08de83c30230cdd_1709811730.png?output-format=webp");
+}
+.collec-tab span {
+  position: absolute;
+  bottom: 10px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.loc {
+  width: 32.5vh;
+  padding: 1.2rem 1.5rem;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(232, 232, 232);
+  margin-bottom: 0.5rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.row-1 {
+  margin-top: 35px;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.row-2 {
+  margin-top: 15px;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.app-logo {
+  width: 15%;
+}
+/* .zom-app {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zom-heading {
+  color: rgb(28, 28, 28);
+  margin: 0px 0px 1.5rem;
+  font-weight: 500;
+  font-size: 4.4rem;
+  line-height: 5.6rem;
+} */
+.zom-app {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(255, 251, 247);
+}
+
+.app-logo {
+  width: 15%;
+  margin-right: 20px;
+}
+
+.zom-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.zom-heading {
+  font-size: xxx-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.zom-subheading {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgb(54, 54, 54);
+}
+.radio-buttons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.radio-buttons label {
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+}
+
+.radio-buttons input[type="radio"] {
+  appearance: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #c7c7c7;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.radio-buttons input[type="radio"]:checked {
+  background-color: rgb(239, 79, 95);
+  border: 6px solid rgb(239, 79, 95);
+}
+
+.radio-buttons input[type="radio"]:checked::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.contact-input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.share-button {
+  padding: 20px;
+  background-color: rgb(239, 79, 95);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.share-button:hover {
+  background-color: #d32f2f;
+}
