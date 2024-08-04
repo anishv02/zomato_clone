@@ -1,3 +1,5 @@
+/* Base styles remain unchanged */
+
 .header {
   background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
   background-size: cover;
@@ -33,17 +35,20 @@
   cursor: pointer;
   gap: 20px;
 }
+
 .middle-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
+
 .header-subheading {
   margin-top: 10px;
   font-size: 1.2em;
   text-align: center;
 }
+
 .options {
   margin-top: 35px;
   display: flex;
@@ -51,6 +56,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .localities {
   margin-top: 35px;
   display: flex;
@@ -58,6 +64,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .tabs {
   height: 40vh;
   width: 50vh;
@@ -65,15 +72,18 @@
   cursor: pointer;
   border-radius: 15px;
 }
+
 .tabs:hover {
   height: 45vh;
 }
+
 .options-img {
   height: 80%;
   width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
 .option-heading {
   color: rgb(54, 54, 54);
   display: block;
@@ -82,6 +92,7 @@
   margin-left: 12px;
   font-size: 20px;
 }
+
 .option-subheading {
   color: rgb(79, 79, 79);
   font-weight: 400;
@@ -90,6 +101,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 .Collection-tabs {
   margin-top: 35px;
   display: flex;
@@ -97,6 +109,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .collec-tab {
   width: 38.5vh;
   border: 1px solid #c7c7c7;
@@ -124,6 +137,7 @@
   font-weight: 400;
   color: rgb(28, 28, 28);
 }
+
 .local-heading {
   margin-left: 8%;
   margin-top: 2%;
@@ -132,24 +146,30 @@
   font-weight: 400;
   color: rgb(28, 28, 28);
 }
+
 .collec-subheading {
   margin-left: 8%;
   line-height: 1.4;
   font-weight: 300;
   color: rgb(54, 54, 54);
 }
+
 .one {
   background-image: url("https://b.zmtcdn.com/data/collections/8ae27cd9a69b3f7762ee64549ebf988a_1722425524.png?output-format=webp");
 }
+
 .two {
   background-image: url("https://b.zmtcdn.com/data/collections/96541881ed7b42d424990403ac3afdbf_1712923153.png?output-format=webp");
 }
+
 .three {
   background-image: url("https://b.zmtcdn.com/data/collections/2e8b954961d07f927802853d5944d67b_1709812770.png?output-format=webp");
 }
+
 .four {
   background-image: url("https://b.zmtcdn.com/data/collections/fbd237478a5d3b6ea08de83c30230cdd_1709811730.png?output-format=webp");
 }
+
 .collec-tab span {
   position: absolute;
   bottom: 10px; /* Adjust this value as needed */
@@ -157,6 +177,7 @@
   transform: translateX(-50%);
   text-align: center;
 }
+
 .loc {
   width: 32.5vh;
   padding: 1.2rem 1.5rem;
@@ -171,6 +192,7 @@
   align-items: center;
   cursor: pointer;
 }
+
 .row-1 {
   margin-top: 35px;
   display: flex;
@@ -178,6 +200,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .row-2 {
   margin-top: 15px;
   display: flex;
@@ -185,22 +208,11 @@
   justify-content: center;
   align-items: center;
 }
+
 .app-logo {
   width: 15%;
 }
-/* .zom-app {
-  margin-top: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.zom-heading {
-  color: rgb(28, 28, 28);
-  margin: 0px 0px 1.5rem;
-  font-weight: 500;
-  font-size: 4.4rem;
-  line-height: 5.6rem;
-} */
+
 .zom-app {
   margin-top: 5%;
   display: flex;
@@ -232,6 +244,7 @@
   margin-bottom: 20px;
   color: rgb(54, 54, 54);
 }
+
 .radio-buttons {
   display: flex;
   margin-bottom: 20px;
@@ -275,6 +288,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .input-container {
   display: flex;
   align-items: center;
@@ -300,10 +314,12 @@
 .share-button:hover {
   background-color: #d32f2f;
 }
+
 .zom-head2 {
   margin-top: 10px;
   color: rgb(156, 156, 156);
 }
+
 .gog-icon {
   height: 36px;
   padding-right: 1%;
@@ -311,6 +327,7 @@
   left: 43%;
   cursor: pointer;
 }
+
 .explore-heading {
   margin-left: 8%;
   margin-top: 2%;
@@ -319,6 +336,7 @@
   font-weight: 400;
   color: rgb(28, 28, 28);
 }
+
 .explore-bars {
   margin-top: 35px;
   margin-bottom: 2%;
@@ -328,6 +346,7 @@
   align-items: center;
   cursor: pointer;
 }
+
 .explore-bars-1 {
   margin-top: -12px;
   margin-bottom: 2%;
@@ -337,6 +356,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .bar {
   width: 157.5vh;
   padding: 1.2rem 1.5rem;
@@ -350,15 +370,18 @@
   line-height: 26px;
   margin: 0px;
 }
+
 .arrow-icon {
   float: right;
   color: black;
 }
+
 .bar-content {
   margin-top: 2%;
   color: rgb(130, 130, 130);
   font-size: 18px;
 }
+
 .bar-content-4 {
   margin-top: 2%;
   color: rgb(130, 130, 130);
@@ -371,8 +394,8 @@
 .bar-content-4 span {
   padding: 5px 0;
 }
-/* src/Footer.css */
 
+/* Footer styles */
 .footer {
   background-color: #f8f8f8;
   padding: 20px 0;
@@ -408,6 +431,7 @@
   margin-bottom: 8px;
   color: rgb(105, 105, 105);
 }
+
 .column ul li:hover {
   color: black;
 }
@@ -455,6 +479,71 @@
 .footer-bottom p {
   margin: 0;
 }
+
 .no-display {
   display: none;
+}
+
+/* Media Queries for Mobile View */
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 20px;
+  }
+
+  .header-left,
+  .header-right {
+    position: static;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-logo {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .options,
+  .localities,
+  .Collection-tabs,
+  .row-1,
+  .row-2 {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .tabs {
+    width: 90%;
+    height: auto;
+  }
+
+  .collec-tab {
+    width: 90%;
+    height: auto;
+  }
+
+  .loc {
+    width: 90%;
+  }
+
+  .explore-bars {
+    flex-direction: column;
+  }
+
+  .bar {
+    width: 90%;
+  }
+
+  .zom-app {
+    flex-direction: column;
+  }
+
+  .app-logo {
+    width: 50%;
+  }
+
+  .radio-buttons label {
+    padding-left: 25px;
+  }
 }
