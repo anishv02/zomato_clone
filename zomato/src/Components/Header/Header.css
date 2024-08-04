@@ -77,7 +77,7 @@
   text-align: left;
   font-weight: 500;
   margin-left: 12px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .option-subheading {
   color: rgb(79, 79, 79);
@@ -295,4 +295,154 @@
 
 .share-button:hover {
   background-color: #d32f2f;
+}
+.zom-head2 {
+  margin-top: 10px;
+  color: rgb(156, 156, 156);
+}
+.gog-icon {
+  height: 36px;
+  padding-right: 1%;
+  position: relative;
+  left: 43%;
+}
+.explore-heading {
+  margin-left: 8%;
+  margin-top: 2%;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+}
+.explore-bars {
+  margin-top: 35px;
+  margin-bottom: 2%;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.explore-bars-1 {
+  margin-top: -12px;
+  margin-bottom: 2%;
+  display: flex;
+  /* gap: 0%; */
+  justify-content: center;
+  align-items: center;
+}
+.bar {
+  width: 157.5vh;
+  padding: 1.2rem 1.5rem;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(232, 232, 232);
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0px;
+}
+.arrow-icon {
+  float: right;
+  color: black;
+}
+.bar-content {
+  margin-top: 2%;
+  color: rgb(130, 130, 130);
+  font-size: 18px;
+}
+.bar-content-4 {
+  margin-top: 2%;
+  color: rgb(130, 130, 130);
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.bar-content-4 span {
+  padding: 5px 0;
+}
+/* src/Footer.css */
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 1;
+  min-width: 150px;
+  margin: 10px;
+}
+
+.column h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 8px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.social-links img {
+  width: 24px;
+  height: auto;
+  margin: 5px;
+}
+
+.social-links .icons {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  margin: 10px 0;
+}
+
+.social-links .icons i {
+  font-size: 20px;
+  color: #333;
+}
+
+.social-links .store-links img {
+  width: 120px;
+  height: auto;
+  margin: 5px;
+}
+
+.footer-bottom {
+  background-color: #f1f1f1;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+.no-display {
+  display: none;
 }

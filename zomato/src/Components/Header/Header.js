@@ -1,9 +1,28 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "./Header.css";
 
 const Header = () => {
   const [contactMethod, setContactMethod] = useState("email");
+  const [explore, setExplore] = useState(false);
+  const [explore2, setExplore2] = useState(false);
+  const [explore3, setExplore3] = useState(false);
+  const [explore4, setExplore4] = useState(false);
+
+  const toggleExplore = () => {
+    setExplore(!explore);
+  };
+  const toggleExplore2 = () => {
+    setExplore2(!explore2);
+  };
+  const toggleExplore3 = () => {
+    setExplore3(!explore3);
+  };
+  const toggleExplore4 = () => {
+    setExplore4(!explore4);
+  };
 
   const handleRadioChange = (event) => {
     setContactMethod(event.target.value);
@@ -173,6 +192,236 @@ const Header = () => {
             />
             <button className="share-button">Share App Link</button>
           </div>
+          <span className="zom-head2">Download app from</span>
+        </div>
+      </div>
+      <img
+        src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+        alt="gog-icon"
+        className="gog-icon"
+      />
+      <img
+        src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+        alt="gog-icon"
+        className="gog-icon"
+      />
+      <div className="explore-heading">Explore options near me</div>
+      <div className="explore-bars" onClick={toggleExplore}>
+        <div className="bar">
+          Popular cuisines near me
+          {/* Button or div to toggle state */}
+          {explore ? (
+            <KeyboardArrowDownIcon className="arrow-icon" />
+          ) : (
+            <KeyboardArrowRightIcon className="arrow-icon" />
+          )}
+          {explore && (
+            <>
+              <div className="bar-content">
+                Beverages food near me Biryani food near me Burger food near me
+                Chinese food near me Coffee food near me Desserts food near me
+                Ice Cream food near me Kebab food near me Maharashtrian food
+                near me Momos food near me Mughlai food near me North Indian
+                food near me Pizza food near me Rolls food near me Sandwich food
+                near me Seafood food near me Shake food near me Sichuan food
+                near me South Indian food near me Street food near me
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+      <div className="explore-bars-1" onClick={toggleExplore2}>
+        <div className="bar">
+          Popular restaurant types near me
+          {/* Button or div to toggle state */}
+          {explore2 ? (
+            <KeyboardArrowDownIcon className="arrow-icon" />
+          ) : (
+            <KeyboardArrowRightIcon className="arrow-icon" />
+          )}
+          {explore2 && (
+            <>
+              <div className="bar-content">
+                Bakeries near me Bars near me Beverage Shops near me Bhojanalya
+                near me Cafés near me Casual Dining near me Clubs near me
+                Cocktail Bars near me Confectioneries near me Dessert Parlors
+                near me Dhabas near meFine Dining near me Food Courts near me
+                Food Trucks near me Irani Cafes near me Kiosks near meLounges
+                near meMicrobreweries near me Paan Shop near me Pubs near me
+                Quick Bites near me Sweet Shops near me
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+      <div className="explore-bars-1" onClick={toggleExplore3}>
+        <div className="bar">
+          Top Restaurant Chains
+          {/* Button or div to toggle state */}
+          {explore3 ? (
+            <KeyboardArrowDownIcon className="arrow-icon" />
+          ) : (
+            <KeyboardArrowRightIcon className="arrow-icon" />
+          )}
+          {explore3 && (
+            <>
+              <div className="bar-content">
+                Domino's Dunkin' Donuts Faasos KFC McDonald's Paradise Biryani
+                Subway WOW! Momo
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+      <div className="explore-bars-1" onClick={toggleExplore4}>
+        <div className="bar">
+          Cities We Deliver To
+          {/* Button or div to toggle state */}
+          {explore4 ? (
+            <KeyboardArrowDownIcon className="arrow-icon" />
+          ) : (
+            <KeyboardArrowRightIcon className="arrow-icon" />
+          )}
+          {explore4 && (
+            <>
+              <div className="bar-content-4">
+                <span>Delhi NCR</span>
+                <span>Kolkata</span>
+                <span>Mumbai</span>
+                <span>Bengaluru</span>
+                <span>Pune</span>
+                <span>Hyderabad</span>
+                <span>Chennai</span>
+                <span>Lucknow</span>
+                <span>Kochi</span>
+                <span>Jaipur</span>
+                <span>Ahmedabad</span>
+                <span>Chandigarh</span>
+                <span>Goa</span>
+                <span>Indore</span>
+                <span>Gangtok</span>
+                <span>Nashik</span>
+                <span>Ooty</span>
+                <span>Shimla</span>
+                <span>Ludhiana</span>
+                <span>Guwahati</span>
+                <span>Amritsar</span>
+                <span>Kanpur</span>
+                <span>Allahabad</span>
+                <span>Aurangabad</span>
+                <span>Bhopal</span>
+                <span>Ranchi</span>
+                <span>Visakhapatnam</span>
+                <span>Bhubaneswar</span>
+                <span>Coimbatore</span>
+                <span>Mangalore</span>
+                <span>Vadodara</span>
+                <span>Nagpur</span>
+                <span>Agra</span>
+                <span>Dehradun</span>
+                <span>Mysore</span>
+                <span>Puducherry</span>
+                <span>Surat</span>
+                <span>Varanasi</span>
+                <span>Patna</span>
+                <span>Udaipur</span>
+                <span>Srinagar</span>
+                <span>Khajuraho</span>
+                <span>Neemrana</span>
+                <span>Cuttack</span>
+                <span>Trivandrum</span>
+                <span>Haridwar</span>
+                <span>Leh</span>
+                <span>Pushkar</span>
+                <span>Rajkot</span>
+                <span>Madurai</span>
+                <span>Kozhikode</span>
+                <span>Alappuzha</span>
+                <span>Thrissur</span>
+                <span>Manipal</span>
+                <span>Vijayawada</span>
+                <span>Jodhpur</span>
+                <span>Kota</span>
+                <span>Ajmer</span>
+                <span>Mussoorie</span>
+                <span>Rishikesh</span>
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+      <div className="footer">
+        <div className="footer-content">
+          <div className="column">
+            <h4>About Zomato</h4>
+            <ul>
+              <li>Who We Are</li>
+              <li>Blog</li>
+              <li>Work With Us</li>
+              <li>Investor Relations</li>
+              <li>Report Fraud</li>
+              <li>Press Kit</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div className="column">
+            <h4>Zomaverse</h4>
+            <ul>
+              <li>Zomato</li>
+              <li>Blinkit</li>
+              <li>Feeding India</li>
+              <li>Hyperpure</li>
+              <li>Zomaland</li>
+              <li>Weather Union</li>
+            </ul>
+          </div>
+          <div className="column">
+            <h4>For Restaurants</h4>
+            <ul>
+              <li>Partner With Us</li>
+              <li>Apps For You</li>
+            </ul>
+          </div>
+          <div className="column">
+            <h4>Learn More</h4>
+            <ul>
+              <li>Privacy</li>
+              <li>Security</li>
+              <li>Terms</li>
+              <li>Sitemap</li>
+            </ul>
+          </div>
+          <div className="social-links">
+            {/* <img src="india-flag.png" alt="India Flag" />
+            <img src="english-language.png" alt="English Language" /> */}
+            <div className="icons">
+              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-facebook"></i>
+            </div>
+            <div className="store-links">
+              <img
+                src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                alt="gog-icon"
+                className="gog-icon"
+              />
+              <img
+                src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                alt="gog-icon"
+                className="gog-icon"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>
+            By continuing past this page, you agree to our Terms of Service,
+            Cookie Policy, Privacy Policy, and Content Policies. All trademarks
+            are properties of their respective owners. 2008-2024 © Zomato™ Ltd.
+            All rights reserved.
+          </p>
         </div>
       </div>
     </>
