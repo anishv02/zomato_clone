@@ -486,23 +486,6 @@
 
 /* Media Queries for Mobile View */
 @media (max-width: 768px) {
-  .header {
-    height: auto;
-    padding: 20px;
-  }
-
-  .header-left,
-  .header-right {
-    position: static;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .header-logo {
-    width: 80%;
-    margin: 0 auto;
-  }
-
   .options,
   .localities,
   .Collection-tabs,
@@ -545,5 +528,58 @@
 
   .radio-buttons label {
     padding-left: 25px;
+  }
+}
+/* Media Queries for Responsive Header */
+@media (max-width: 1024px) {
+  .header {
+    height: auto;
+    min-height: 20rem;
+    max-height: 15rem;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .header-left {
+    top: 10px;
+    left: 10px;
+    font-size: 0.9rem;
+  }
+
+  .header-right {
+    top: 10px;
+    right: 10px;
+    font-size: 0.9rem;
+    gap: 10px;
+  }
+
+  .header-logo {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    min-height: 15rem;
+    max-height: 10rem;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-left,
+  .header-right {
+    position: static;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .header-logo {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
   }
 }
